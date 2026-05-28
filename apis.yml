@@ -1,0 +1,32 @@
+aid: metro-lisboa
+name: Metro Lisboa
+description: "Delays in subway lines"
+url: http://app.metrolisboa.pt/status/getLinhas.php
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: Metro Lisboa
+    description: "Delays in subway lines"
+    humanURL: http://app.metrolisboa.pt/status/getLinhas.php
+    baseURL: http://app.metrolisboa.pt/status/getLinhas.php
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: http://app.metrolisboa.pt/status/getLinhas.php
+common:
+  - type: Website
+    url: http://app.metrolisboa.pt/status/getLinhas.php
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
